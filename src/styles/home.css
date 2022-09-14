@@ -1,3 +1,7 @@
+.slick-arrow .slick-prev , 
+.slick-arrow .slick-next {
+    display: none !important;
+} 
 .feature_subtitle{
     color: #df2020;
 }

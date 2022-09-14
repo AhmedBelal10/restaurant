@@ -54,7 +54,7 @@ const AllFoods = () => {
             </Col>
             {displayPage
             .map((item) => (
-              <Col lg="3" md="4" sm="6" xs="12" key={item.id} className="mb-4">
+              <Col lg="3" md="4" sm="6" xs="6" key={item.id} className="mb-4">
                 <ProductCart item={item} />
               </Col>
             ))}

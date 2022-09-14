@@ -21,7 +21,7 @@ const CartItem = ({ item }) => {
     <ListGroupItem className="border-0 cart_item bigCart">
       <div className="cart_item-info d-flex gap-2">
         <img src={image01} alt="pro-img" />
-        <div className="cart_product-info w-100 d-flex gap-4 justify-content-between align-items-center">
+        <div className="cart_product-info w-100  d-flex gap-4 justify-content-between align-items-center">
           <div>
             <h6 className="cart_product_title">{title}</h6>
             <p className="d-flex align-items-center gap-5 cart_product_price">

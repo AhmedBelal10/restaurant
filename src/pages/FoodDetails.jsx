@@ -22,12 +22,14 @@ const FoodDetails = () => {
   const { title, price, category, desc , image01 } = product;
   const relatedProduct = products.filter(item => category === item.category)
   
+
+
   const addItem = ()=>{
-    dispatch(cartActions.addItem(id,title,price,image01,))
+    dispatch(cartActions.addItem({id,title,price,image01}))
   }
   const submitHandler = e =>{
     e.preventDefault();
-    console.log(enteredEmail , enteredName , reviewMsg);
+    console.log(enteredName , enteredEmail , reviewMsg);
   }
   useEffect(()=>{
     setPreviewImg(product.image01)

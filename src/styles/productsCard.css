@@ -47,12 +47,27 @@
         font-size: .7rem;
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
     .change{
         margin-top: 1.6rem !important;
     }
-    .footerParent{
-        justify-content: space-around !important;
+    .product_content h5{
+        margin-bottom: 12px;
     }
-    
+    .product_content h5 a , .product_price {
+        font-size: .8rem !important;
+    }
+    .footerParent{
+        justify-content: center !important;
+        gap: 10px;
+    }
+    .addToCart_btn{
+        font-size: .6rem;
+    }
+    .product_item{
+        padding: 6px 6px 13px 6px;
+    }
+    .product_img{
+        margin-bottom: 10px !important;
+    } 
 }

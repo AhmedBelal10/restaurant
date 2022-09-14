@@ -18,7 +18,7 @@ import foodCategoryImg3 from "../assets/images/bread.png";
 import whyImg from "../assets/images/location.png";
 import networkImg from "../assets/images/network.png";
 
-import "../styles/heroSection.css";
+import "../styles/heroSection.css"; 
 import "../styles/home.css";
 
 const featureData = [
@@ -214,7 +214,7 @@ const Home = () => {
               </div>
             </Col>
             {allProducts.map((item) => (
-              <Col lg="3" md="4" sm='6' xs='12' key={item.id} className="mt-5 change">
+              <Col lg="3" md="4" sm='6' xs='6' key={item.id} className="mt-5 change">
                 <ProductCart item={item} />
               </Col>
             ))}
@@ -286,7 +286,7 @@ const Home = () => {
               <h2>Hot Pizza</h2>
             </Col>
             {hotPizza.map((item) => (
-              <Col lg="3" md="4" key={item.id} className='hotPizza'>
+              <Col lg="3" md="4" sm='6' xs='6' key={item.id} className='hotPizza'>
                 <ProductCart item={item} />
               </Col>
             ))}
@@ -301,7 +301,6 @@ const Home = () => {
               <div className="testimonial">
                 <h5 className="testimonial_subtitle mb-4">Testimonials</h5>
                 <h2 className="testimonial_title mb-4">What our <span>customer</span> are saying</h2>
-                <p className="testimonial_desc ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsum at voluptate! Quas necessitatibus facilis, autem eaque quasi praesentium tempore nostrum iure numquam obcaecati? Maxime aperiam recusandae obcaecati error cum.</p>
                 <Testimonails/>
               </div>
             </Col>

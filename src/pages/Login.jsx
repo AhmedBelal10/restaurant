@@ -28,7 +28,7 @@ const Login = () => {
                 </div>
                 <button type='submit' className="addToCart_btn">Login</button>
               </form>
-              <Link to='/register'>Don't have an account? create a new one </Link>
+              <Link to='/register'>Don't have an account? <span className='text-decoration-underline text-danger'>create a new one</span> </Link>
           </Col>
         </Row>
       </Container>
