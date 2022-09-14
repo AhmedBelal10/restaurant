@@ -1,0 +1,176 @@
+.feature_subtitle{
+    color: #df2020;
+}
+.feature_title span{
+    color: #df2020;
+}
+.feature_text{
+    color: #777;
+}
+.feature_item p{
+    color: #777;
+}
+.food_cat{
+    background: #df2020;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 8px;
+}
+.food_cat button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: #fff;
+}
+.food_cat button img{
+    width: 20px;
+    height: 20px;
+}
+
+.foodBtnActive{
+    background: #ffF !important;
+    border-radius: 5px;
+    color: #df2020 !important ;
+}
+.tasty_title span{
+    color: #df2020;
+}
+.why_tasty .tasty_desc{
+    color: #777;
+    line-height: 28px;
+}
+.choose_us_title{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.choose_us_title i{
+    font-weight: 500 !important;
+    color: #df2020;
+}
+.choose_us_desc{
+    color: #777;
+}
+
+.testimonial_subtitle{
+    color: #df2020;
+}
+.testimonial_title span{
+    color: #df2020;
+}
+.testimonial_desc{
+    color: #777;
+    line-height: 30px;
+}
+@media only screen and (max-width: 768px) {
+    .hero_content h5{
+        font-size: 1rem !important;
+    }
+    .hero_content p{
+        font-size: .8rem;
+        line-height: 25px;
+    }
+    .hero_title{
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+    .hero_btns button{
+        padding: 5px 15px;
+        font-size: .7rem;
+    }
+    .hero_service p{
+        font-size: .7rem !important;
+    }
+    /* ________________ */
+    .feature_item h5{
+        font-size: .9rem;
+    }
+    .feature_item p{
+        font-size: .8rem;
+        margin-bottom: 0;
+    }
+    .feature_subtitle{
+        font-size: 1rem;
+    }
+    .feature_text{
+        font-size: .8rem;
+        margin-bottom: 0;
+    }
+    .food_cat{
+        padding: 15px;
+    }
+    .food_cat button{
+        padding: 5px 15px;
+        font-size: .7rem;
+    }
+    .tasty_desc{
+        font-size: .8rem;
+        margin-bottom: 0;
+    }
+    .choose_us_title{
+        font-size: .8rem;
+    }
+    .choose_us_desc{
+        font-size: .7rem;
+    }
+    .testimonial_subtitle {
+        font-size: 1rem;
+    }
+    .testimonial_desc {
+        font-size: .8rem;
+    }
+    
+}
+@media only screen and (max-width: 576px) {
+    .hero_content{
+        text-align: center;
+    }
+    .hero_content h5{
+        font-size: 1rem;
+    }
+    .hero_content p{
+        font-size: .8rem;
+        line-height: 25px;
+    }
+    .hero_title{
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+    .hero_btns{
+        justify-content: center;
+    }
+    .hero_btns button{
+        padding: 5px 15px;
+        font-size: .7rem;
+    }
+    .hero_service{
+        justify-content: center;
+    }
+    .why_choose-us{
+        padding-top:0px !important;
+    }
+    .hotPizza{
+        margin-top: 15px;
+    }
+    .food_cat{
+        gap: 5px !important;
+    }
+    .hero_content{
+        padding-top: 0px !important;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .food_cat{
+        gap: 4px !important;
+    }
+    .food_cat button{
+        padding: 5px 10px;
+    }
+    .hero_service {
+        gap: 30px !important;
+    }
+}
+
+
+

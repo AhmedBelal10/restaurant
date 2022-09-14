@@ -1,0 +1,134 @@
+.footer{
+    padding: 50px 0px;
+    background: #fde4e4;
+}
+
+.footer_logo img{
+    width: calc(100% - 80%);
+    margin-bottom: 5px;
+}
+.footer_logo h5{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+.footer_logo p{
+    font-size: .9rem;
+    color: #333;
+    line-height: 28px;
+}
+.delivery_time_list{
+    background: transparent;
+}
+.delivery_time_item{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212245;
+    background-color: transparent;
+}
+.delivery_time_item p{
+    color: #212245;
+}
+.footer_title{
+    font-size: 1.1rem;
+    color: #212245;
+    font-weight: 600;
+}
+.newsletter{
+    padding: 4px 15px;
+    border: 1px solid #212245;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.newsletter input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.newsletter input:focus{
+    outline: none;
+}
+.newsletter input::placeholder{
+    color: #212245;
+}
+.newsletter span{
+    background-color: #212245;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.newsletter span i {
+    color: #fff;
+    font-size: 20px;
+}
+@media only screen and (max-width: 992px) {
+    .newsletter input{
+        padding: 7px;
+        font-size: .7rem;
+    }
+    .newsletter span{
+        padding: 4px 15px;
+        font-size: .7rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .footer_title{
+        font-size: .8rem;
+    }
+    .delivery_time_item span{
+        font-size: .8rem;
+    }
+    .delivery_time_item p{
+        font-size: .7rem;
+        margin-bottom: 0;
+    }
+    .newsletter input{
+        padding: 7px;
+        font-size: .7rem;
+    }
+    .newsletter span{
+        padding: 4px 15px;
+        font-size: .7rem;
+    }
+}
+@media only screen and (max-width: 576px) {
+   .delivery{
+    margin-top: 40px;
+   }
+   .delivery_time_item.phone , 
+   .delivery_time_item.email,
+   .delivery_time_item.location
+   {
+    padding: 0px;
+   }
+   .delivery_time_item.fri{
+    padding-top: 0px;
+    margin-top: 0px;
+   }
+   .newsletter{
+    width: 90%;
+    padding: 2px 4px;
+   }
+   .newsletter span{
+    padding: 2px 5px;
+    margin-left: -25px !important;
+   }
+   .newsletter span i{
+    font-size: .9rem;
+   }
+   .contact , 
+   .news
+   {
+    margin-top: 20px;
+   }
+   .news input{
+    padding: 0px;
+   }
+}
+@media only screen and (max-width: 320px) {
+    .newsletter span{
+        margin-left: -55px !important;
+       }
+}

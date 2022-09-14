@@ -1,0 +1,16 @@
+.form_group_contact textarea{
+    height: 125px;
+}
+.contactButton{
+    display: block;
+    margin: auto !important;
+}
+@media only screen and (max-width: 576px) {
+    .form_group_contact textarea{
+        height: 80px !important; 
+    }
+    .form_group_contact input,
+    .form_group_contact textarea{
+        padding: 0 !important;
+    }
+}
